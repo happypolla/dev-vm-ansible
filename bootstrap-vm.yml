@@ -1,0 +1,10 @@
+---
+- hosts: localhost
+  become: yes
+
+  vars:
+    kubernetes_all_pods_on_master: true
+
+  roles:
+    - geerlingguy.docker
+    - geerlingguy.kubernetes

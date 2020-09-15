@@ -1,0 +1,7 @@
+---
+roles:
+  - name: geerlingguy.docker
+    version: 2.8.2
+
+  - name: geerlingguy.kubernetes
+    version: 5.0.0
